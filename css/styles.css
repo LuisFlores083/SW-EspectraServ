@@ -101,6 +101,9 @@ html{
   width: 250px;
   height: 250px;
 }
+.contenido{
+  margin: 40px auto;
+}
 
 @media (min-width: 768px) {
   .flex-md-equal > * {
