@@ -92,8 +92,14 @@ html{
 
 .imgPer{
   object-fit: cover;
-  height: 50%;
-  width: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.figImagen{
+  margin: auto;
+  width: 250px;
+  height: 250px;
 }
 
 @media (min-width: 768px) {
