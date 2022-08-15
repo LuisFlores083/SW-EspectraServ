@@ -17,6 +17,15 @@ html{
   text-decoration: none;
 }
 
+.textIndex{
+  padding: 10px;
+  margin: 0px;
+}
+
+.textcard{
+  padding: 10px;
+  margin: 10px;
+}
 
 .social{ 
   font-family: social;
@@ -85,7 +94,7 @@ html{
 
 .cardBfond{
   height: 238px;
-  width: 300px;
+  width: 350px;
   border-radius: 25px;
   left: -14px;
 }
@@ -99,6 +108,17 @@ html{
 .figImagen{
   margin: auto;
   width: 250px;
+  height: 250px;
+}
+.imgPerCard{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.figImagenCard{
+  margin: auto;
+  width: 750px;
   height: 250px;
 }
 .figbanner{
@@ -124,6 +144,10 @@ html{
   .featurette-heading {
     font-size: 50px;
   }
+  .textIndex{
+    padding: 10px;
+    margin: 65px 0;
+  }
 }
 
 @media (min-width: 992px) {
@@ -135,5 +159,27 @@ html{
     width: 220px;
     border-radius: 25px;
     left: -14px;
+  }
+  .textIndex{
+    padding: 20px;
+    margin: 170px 0;
+  }
+  .imgPerCard{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .figImagenCard{
+    margin: auto;
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (min-width : 1200px){
+  .textIndex{
+    padding: 20px;
+    margin: 200px 0;
   }
 }
